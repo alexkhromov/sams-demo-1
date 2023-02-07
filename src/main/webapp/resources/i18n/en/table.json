@@ -1,0 +1,28 @@
+{
+    "header": {
+        "title": "Title",
+        "level": "Level",
+        "email": "Email",
+        "username": "Username",
+        "roles": "Roles"
+    },
+
+    "entries": {
+        "showing": "Showing {{firstOnPage}} to {{lastOnPage}} of {{totalElements}} entries",
+        "limit": "Show <1></1> entries"
+    },
+
+    "filter": {
+        "all": "All",
+        "junior": "Junior",
+        "middle": "Middle",
+        "senior": "Senior"
+    },
+
+    "role": {
+        "USER": "User",
+        "TRANSLATOR": "Translator",
+        "MODERATOR": "Moderator",
+        "ADMIN": "Admin"
+    }
+}

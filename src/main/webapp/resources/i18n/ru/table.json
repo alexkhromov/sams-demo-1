@@ -1,0 +1,28 @@
+{
+    "header": {
+        "title": "Вопрос",
+        "level": "Сложность",
+        "email": "Email",
+        "username": "Имя пользователя",
+        "roles": "Роли"
+    },
+
+    "entries": {
+        "showing": "Показаны записи от {{firstOnPage}} до {{lastOnPage}} из {{totalElements}} записей",
+        "limit": "Показать <1></1> записей"
+    },
+
+    "filter": {
+        "all": "Все",
+        "junior": "Джуниор",
+        "middle": "Мидл",
+        "senior": "Сеньор"
+    },
+
+    "role": {
+        "USER": "Пользователь",
+        "TRANSLATOR": "Переводчик",
+        "MODERATOR": "Модератор",
+        "ADMIN": "Администратор"
+    }
+}

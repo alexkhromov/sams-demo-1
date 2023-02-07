@@ -1,0 +1,61 @@
+{
+    "add": {
+        "ok": "Add"
+    },
+
+    "edit": {
+        "ok": "Edit"
+    },
+
+    "common": {
+        "cancel": "Cancel"
+    },
+
+    "label": {
+        "question": {
+            "title": {
+                "common": "English title",
+                "en": "English title",
+                "ru": "Russian title"
+            },
+            "answerLink": "Link to answer",
+            "level": "Question level"
+        },
+
+        "user": {
+            "email": "Email",
+            "username": "Username",
+            "isDeleted": "Is deleted"
+        }
+    },
+
+    "placeholder": {
+        "question": {
+            "title": {
+                "common": "Enter english title",
+                "en": "Enter english title",
+                "ru": "Enter russian title"
+            },
+            "answerLink": "Enter URL",
+            "level": "Enter question level"
+        },
+
+        "user": {
+            "email": "Enter email",
+            "username": "Enter username"
+        }
+    },
+
+    "level": {
+        "junior": "Junior",
+        "middle": "Middle",
+        "senior": "Senior"
+    },
+
+    "role": {
+        "USER": "User",
+        "TRANSLATOR": "Translator",
+        "MODERATOR": "Moderator",
+        "ADMIN": "Admin"
+    }
+}

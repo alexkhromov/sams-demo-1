@@ -1,0 +1,13 @@
+{
+    "main": {
+        "title": "Java Interview Notes",
+        "author": "Alexander Khromov"
+    },
+
+    "nav": {
+        "signin": "Sign in",
+        "signup": "Sign up",
+        "signout": "Sign out",
+        "hello": "Hello, {{username}}"
+    }
+}

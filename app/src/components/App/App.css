@@ -1,0 +1,69 @@
+.footer {
+    display: flex;
+    flex-shrink: 0;
+    width: 100%;
+    height: 60px;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.table-fixed {
+    table-layout: fixed;
+}
+
+.tooltip-wrapper {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    max-width: 100%;
+}
+  
+.tooltip-wrapper .tooltip-text {
+    visibility: hidden;
+    max-width: 100%;
+    background-color: #17a2b8;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+  
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 0%;
+  
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+  
+.tooltip-wrapper .tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #17a2b8 transparent transparent transparent;
+}
+  
+.tooltip-wrapper:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+} 
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.opaque-5 {
+    opacity: 0.5;
+}
+
+.auth-form {
+    max-width: 540px;
+}
